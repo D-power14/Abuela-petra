@@ -97,14 +97,24 @@ body {
 
 @media only screen and (max-width:790px){
 
-	
+	.icon{
+		width: 105px;
+		height: 90px;
+		color: #89c9b8;
+	}
 
 	.menu-icon{
 		display: block;
 		cursor: pointer;
-		padding: 0.5rem 1rem;
+		padding: 0.5rem 1rem 1rem 1rem;
 		font-size: 1.8rem;
 	}
+	.header{
+		padding: 1rem 0;
+	}
+	
+		
+	
      .navigation {
 		width: 100%;
 		margin-top: 1rem;
@@ -124,5 +134,12 @@ body {
 		padding: 0.5rem 0;
 		transition: all 0.4s linear;
 		border-radius: 5px;
+	}
+}
+
+@media only screen and (max-width:350px), (min-width:200){
+	.icon {
+		width: 100px;
+		height: 100px;
 	}
 }
