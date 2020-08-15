@@ -12,9 +12,12 @@ body {
 		}
 		p {
 			margin-bottom: 1.6em;
+			font-size: 22px;
 		}
 		img {
 			border: none;
+			width: 165px;
+			height: 165px;
 		}
 		
 		.container {
@@ -49,6 +52,7 @@ body {
 			letter-spacing: 30px;
 			font-size: 2em;
 		}
+		
 		.menu-icon{
 			display: none;
 		}
@@ -71,6 +75,11 @@ body {
 
 		}
 
+		.main {
+			padding-top: 12rem;
+			text-align: center;
+		}
+
 		.footer{
 			background: #333;
 			padding: 15px 0;
@@ -84,17 +93,17 @@ body {
 			text-decoration: none;
 			color: white;
 		}
-		.main{ 
-			padding-top: 12rem;
-		}
 		
 
 @media only screen and (max-width:790px){
+
+	
 
 	.menu-icon{
 		display: block;
 		cursor: pointer;
 		padding: 0.5rem 1rem;
+		font-size: 1.8rem;
 	}
      .navigation {
 		width: 100%;
